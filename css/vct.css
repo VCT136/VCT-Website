@@ -1,5 +1,5 @@
 /* maven pro font */
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;460;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Maven+Pro:wght@400;460;500;600;700&display=swap');
 
 :root {
     --vct-red: #C00136;
@@ -20,7 +20,7 @@
     --none: #00000000;
     --sheer-white: #ffffffee;
     color: white;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 html, body {
@@ -47,7 +47,8 @@ a:hover {
 body {
     color: var(--vct-oldark-grey-d7);
     background-color: var(--vct-oldark-red);
-    font-family: "Maven Pro", Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Jost, "Maven Pro", Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
     margin: 0;
     gap: 1vh;
 }
@@ -359,7 +360,8 @@ div.cards div.card div.content {
     border-radius: 16px 16px 0 0;
     box-sizing: border-box;
     display: block;
-    font-size: 12pt;
+    font-size: 14pt;
+    font-weight: 400;
     transform: translate(calc(-50%), calc(100% - 1.6em - 20px));
     width: calc(100% + 4px);
 
