@@ -12,9 +12,9 @@ $(function()
 
 function setup(callback = function(){}) {
 
-    // add " | VCT.one" to title
-    if (!document.title.includes("VCT.one")) {
-        document.title += " | VCT.one";
+    // add " | VCT.red" to title
+    if (!document.title.includes("VCT.red")) {
+        document.title += " | VCT.red";
     }
 
     // add logo favicon
