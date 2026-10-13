@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        
+        <title>Gilded Destiny | VCT.red</title>
+        <!-- Open Graph Protocol -->
+        <meta property="og:title" content="Gilded Destiny | VCT.red" />
+        <meta property="og:image" content="//VCT.red/res/VCT.red%202025.png" />
+        <meta property="og:description" content="Vincent's contributions to the 19th century grand strategy game." />
+        <meta property="og:url" content="//VCT.red/projects/gilded-destiny" />
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+    </head>
+    <body>
+        
+		<div class="slideshow">
+            <figure>
+                <img src="/res/gilded_destiny_store_screenshot_1920x1080.jpg" alt="screenshot of Gilded Destiny from the game's Steam page">
+				<div>
+					<h2>Europe in 1822</h2>
+					<p>At the start of the game the political borders are notably shaped by the congress of Vienna.</p>
+				</div>
+            </figure>
+
+            <figure>
+                <img src="/res/gilded_destiny_store_screenshot_2_1920x1080.jpg" alt="screenshot of Gilded Destiny from the game's Steam page">
+				<div>
+					<h2>Religious Map</h2>
+					<p>Faith shapes the customs and convictions of the people, and influences politics. Religions are one of the factors distinguishing population segments in the game.</p>
+				</div>
+            </figure>
+        </div>
+
+        <div class="infoblock top-gradient">
+            <p class="smalltext">October 2026</p>
+			<h1>Gilded Destiny</h1>
+            <p>
+                Gilded Destiny is a grand strategy game set in the 19th century. Players select a country on the globe and strive to achieve their goals of leading their country to great success. To do that, the game has many interdependent simulation layers: population simulation, production, trade, policies, taxation, militaries, and more.
+            </p>
+			<p><a href="https://store.steampowered.com/app/2189430/Gilded_Destiny/"><button>Gilded Destiny on Steam</button></a></p>
+			<p>
+				As part of Aquila Interactive's development team I supported the game's design and development from 2024 to 2026 as Technical Game Designer.
+			</p>
+			<p>
+				Not unlike most ambitious game projects, a lot of my work on this project is subject to an NDA, so I can only mention what has already been published by the team.
+			</p>
+        </div>
+
+		<div class="infoblock">
+			<h2>Game Design</h2>
+			<p>
+				I led the design of two major game systems: rebellion and colonization.
+			</p>
+			<p>	
+				In this dev diary video our producer Marc describes the game's rebellion system:
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qN6WJ4fLZG8?si=SVqumZaf_yAcTJAO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</p>
+			<p>
+				Unrest and rebels can be thought of as a penalty system for players making choices that worsen their population's welfare, but they can also be a pathway towards a more prosperous country. For example, a rigid, conservative political system might be challenging to reform. In such a case a player might consider allowing political rebels to overthrow their government and fast-track political reforms. As revolutions are most often violent and always chaotic, it is worth considering the damage they'll cause to production, national finances, and political stability on the other hand.
+			</p>
+			<p>
+				At the core of the system is an unrest value, which is calculated in each province, and reflects the willingness of the local people to express political discontent. If province unrest reaches 100%, a rebellion starts.
+			</p>
+			<p>
+				There are three types of rebels: political rebels, separatists, and nationalists. Political rebels aim to overthrow the national government and change the country's policies. They could be communists or reactionaries for example. Separatists and nationalists are fairly similar from a player's perspective. They want to change which country they belong to. For example, they could try establishing an independent Ireland or Poland, or they could let a neighboring nation annex provinces that are culturally more attached to that nation.
+			</p>
+		</div>
+
+		<div class="infoblock">
+			<h2>User Interface</h2>
+			<p>
+				A significant part of my work was to implement, fix, and refine various UI elements, such as the main menu, settings screen, country and province interaction window, and possibly most notably, the heads-up-display (HUD).
+			</p>
+			<p>
+				Apart from purpose-built elements like specific windows, tabs, and menus, I also created and maintained reusable components, which appear throughout the game, and I worked on improving the overall visual consistency of the UI.
+			</p>
+			<p>
+				This dev diary video introduces the HUD:
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IlSty_CmGws?si=qdQUfApfNp2DaNv1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</p>
+		</div>
+
+		<div class="infoblock">
+			<h2>Settings, Analytics, and Sound</h2>
+			<p>
+				I was responsible for implementing game settings, auch as resolution adjustments, visual effects, and language switching.
+			</p>
+			<p>
+				To enable data-driven decision making later in development, I integrated telemetry analytics software into the game and set up a dashboard tracking relevant ingame events.
+			</p>
+			<p>
+				I was also tasked with sound-related development, and implemented the in-game music player, button sound effects, and volume settings.
+			</p>
+		</div>
+
+		<div class="infoblock">
+			<h2>I have learnt a lot</h2>
+			<p>
+				Not just historical knowledge of the 19th century. I have also gained more programming expertise, further enhancing my mastery of the C# language, and learning how to work within an entity component systems (ECS) model.
+			</p>
+			<p>
+				I worked on this project remotely, and all other colleagues were in different countries, mostly in other European countries and in China. It was interesting to discover the ways in which our cultures are different, and also similar. Not just in terms of food and holidays, but also in terms of hierarchy and approach to work assignments.
+			</p>
+			<p>
+				As a side project, I organized a series of internal knowledge sharing events at the company, where different colleagues presented a topic from their area of expertise. Things I learnt about from my colleagues in that way include effective publishing strategies, the programming principle of "composition over inheritance", and how different strategy games handle common game AI design challenges.
+			</p>
+			<p>
+				Gilded Destiny is a very ambitious project and bundles many awesome features in a really cool historical setting, with the industrial revolution's societal changes bringing a unique dynamism to the game world. 
+				I hope that the game's launch in 2027 will be a great success!
+			</p>
+		</div>
+
+		<div class="infoblock">
+			<h2>Trailer</h2>
+			<p>
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x7_unOvJ_Cc?si=SEHEpP0UQyvBfsDX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br/>
+				This is an old gameplay trailer, made for the game's Kickstarter campaign.
+			</p>
+			<p><a href="https://store.steampowered.com/app/2189430/Gilded_Destiny/"><button>Gilded Destiny on Steam</button></a></p>
+		</div>
+
+		<div class="infoblock smalltext verydark">
+			<h3>Aquila Interactive / Hooded Horse</h3>
+			<p>
+				Gilded Destiny is a game by Aquila Interactive, published by Hooded Horse. It is a trademark of its legal owner, Aquila Interactive Limited. Vincent Busch and Vincent Creative Technologies do not own rights to Gilded Destiny.
+			</p>
+		</div>
+
+        <!-- Autostyle -->
+        <script src="/js/autostyle.js"></script>
+    </body>
+</html>
